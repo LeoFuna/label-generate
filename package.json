@@ -1,0 +1,22 @@
+{
+  "name": "label-generate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha index.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pdf-lib": "^1.17.1",
+    "uninstall": "^0.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^10.7.3",
+    "sinon": "^19.0.2"
+  }
+}
